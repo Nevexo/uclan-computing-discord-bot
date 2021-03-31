@@ -1,0 +1,14 @@
+{
+  "name": "uclan-comp-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@types/mongoose": "^5.10.4",
+    "@types/pino": "^6.3.6",
+    "discord.js": "^12.5.1",
+    "mongoose": "^5.12.2",
+    "pino": "^6.11.2",
+    "yaml": "^1.10.2"
+  }
+}
