@@ -7,5 +7,6 @@
 // for use in dynamic command loading.
 
 import Ping from './ping';
+import Help from './help';
 
-export default [ Ping ]
+export default [ Ping, Help ]

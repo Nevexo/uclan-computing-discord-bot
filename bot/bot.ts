@@ -26,7 +26,7 @@ const config = YAML.parse(file);
 
 // Initalise Discord
 const client = new Client();
-const commands = new Collection();
+export const commands = new Collection();
 
 client.once('ready', () => {
   logger.info("connected to Discord.")
